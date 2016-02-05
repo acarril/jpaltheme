@@ -30,9 +30,12 @@ $ brew install gitignore
 ```
 
 ### Option 2 (best)
+Option 2 is a tiny bit less easy, but much more elegant. You'll install only once, so no copying and pasting all those `sty` files that mess up your presentations' folders.
+
+First step is to check where your TeX home directory is. If you're in Windows use the Command Prompt (CMD), and in OSX open the Terminal (if you're using Linux then I'm sure you know what to open :). Then copy+paste this:
 
 ```bash
-$ pip install joe
+kpsewhich -var-value=TEXMFHOME
 ```
 
 ### Option 3: From source
