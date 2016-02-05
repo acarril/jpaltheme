@@ -21,7 +21,7 @@
 Option 1 is the easiest, but it is not the most elegant one. It may be suitable if this is the first time you'll use the template or just want to try it once, to see what the fuzz is all about.
 
 To use, simply [download this repository](https://github.com/acarril/jpaltheme/archive/master.zip) to your computer. There's also a download button if you scroll up this page, like you can see in this screenshot:
-![](http://i.imgur.com/giQXGTN.png)
+![](http://i.imgur.com/nsrqc0V.png)
 
 ```bash
 $ brew update
