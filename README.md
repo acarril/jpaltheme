@@ -32,11 +32,13 @@ $ brew install gitignore
 ### Option 2 (best)
 Option 2 is a tiny bit less easy, but much more elegant. You'll install only once, so no copying and pasting all those `sty` files that mess up your presentations' folders.
 
-First step is to check where your TeX home directory is. If you're in Windows use the Command Prompt (CMD), and in OSX open the Terminal (if you're using Linux then I'm sure you know what to open :). Then copy+paste this:
+First step is to check where your TeX home directory is. Open either the Command Prompt in Windows or the Terminal in OSX (if you're using Linux then I'm sure you know what to open :). Then copy, paste and execute this command:
 
 ```bash
 kpsewhich -var-value=TEXMFHOME
 ```
+
+That will return a directory address, like `/Users/alvaro/Library/texmf` in my case. It will almost certainly end with `/texmf`.
 
 ### Option 3: From source
 
