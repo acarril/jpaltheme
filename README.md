@@ -45,7 +45,7 @@ A demo document is contained in the "demo" folder, which showcases many typical 
 
 
 
-![](http://i.imgur.com/y8g506n.png?1)
+![](https://www.povertyactionlab.org/sites/all/themes/JPal/img/J-PAL_logo_main.png?1)
 
 # joe
 
