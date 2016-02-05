@@ -21,7 +21,9 @@
 Option 1 is the easiest, but it is not the most elegant one. It may be suitable if this is the first time you'll use the template or just want to try it once, to see what the fuzz is all about.
 
 To use simply download this repository to your computer
+![](http://i.imgur.com/ZM0aFH1.png)
 
+http://i.imgur.com/ZM0aFH1.png
 ```bash
 $ brew update
 $ brew tap karan/karan
