@@ -8,12 +8,11 @@
 
 ## Features
 
-- Written in uncomplicated Python
 - Easy to [install](https://github.com/acarril/jpaltheme#installation)
-- Stupidly [easy to use](https://github.com/acarril/jpaltheme#usage)
-- Supports all Github-supported [`.gitignore` files](https://github.com/karan/joe#list-all-available-files)
+- Easier to [use](https://github.com/acarril/jpaltheme#usage)
 - Works on Mac, Linux and Windows
-- Supports other version control systems (`.hgignore`)
+- Adheres to J-PAL's new guidelines
+- Easy to tweak
 
 ## Installation
 
@@ -32,20 +31,20 @@ $ brew install gitignore
 ### Option 2 (best)
 Option 2 is a tiny bit less easy, but much more elegant. You'll install only once, so no copying and pasting all those `sty` files that mess up your presentations' folders.
 
-First step is to check where your TeX home directory is. Open either the Command Prompt in Windows or the Terminal in OSX (if you're using Linux then I'm sure you know what to open :). Then copy, paste and execute this command:
+First step is to donwload the contents of this repository. Check out Option 1 if you don't know how to do that.
+
+Second step is to check where your TeX home directory is. Open either the Command Prompt in Windows or the Terminal in OSX (if you're using Linux then I'm sure you know what to open :). Then copy, paste and execute this command:
 
 ```bash
 kpsewhich -var-value=TEXMFHOME
 ```
 
-That will return a directory address, like `/Users/alvaro/Library/texmf` in my case. It will almost certainly end with `/texmf`.
+That will return a directory address, like `/Users/alvaro/Library/texmf` in my case. It will almost certainly end with `/texmf`.  If the returned directory doesn't exist, then you'll have to create it.
 
-### Option 3: From source
+Third (and final) step is to create a subfolder named `latex` and then inside that one put another named `beamer`. Unpack  the contents you downloaded in the first step into that `beamer` folder. So at the end you should have this directory:
 
 ```bash
-$ git clone --recursive git@github.com:karan/joe.git
-$ cd joe/
-$ python setup.py install
+.../texmf/latex/beamer/jpaltheme
 ```
 
 ## Usage
