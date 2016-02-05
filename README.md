@@ -47,17 +47,17 @@ A demo document is contained in the "demo" folder, which showcases many typical 
 
 ![](https://www.povertyactionlab.org/sites/all/themes/JPal/img/J-PAL_logo_main.png?1)
 
-# joe
+# jpaltheme
 
-A `.gitignore` magician in your command line. Joe generates `.gitignore` files from the command line for you.
+`jpaltheme` is a LaTeX program for making Beamer presentations that comply with J-PAL's new branding guidelines. It is designed to be easily implemented and tweaked, while mantaining all the advantages of using LaTeX.
 
-![](http://i.imgur.com/ghmJLUP.gif)
+![](http://i.imgur.com/aZxX10A.png?1)
 
 ## Features
 
 - Written in uncomplicated Python
-- Easy to [install](https://github.com/karan/joe#installation)
-- Stupidly [easy to use](https://github.com/karan/joe#usage)
+- Easy to [install](https://github.com/acarril/jpaltheme#installation)
+- Stupidly [easy to use](https://github.com/acarril/jpaltheme#usage)
 - Supports all Github-supported [`.gitignore` files](https://github.com/karan/joe#list-all-available-files)
 - Works on Mac, Linux and Windows
 - Supports other version control systems (`.hgignore`)
