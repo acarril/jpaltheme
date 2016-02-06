@@ -13,7 +13,7 @@ Pretty cool, huh?
 - Waaay cooler than ~~Powerpoint~~
 - Easy to [install](https://github.com/acarril/jpaltheme#installation)
 - Easier to [use](https://github.com/acarril/jpaltheme#usage)
-- Fun to [configure](https://github.com/acarril/jpaltheme#configure)!
+- Fun to [configure](https://github.com/acarril/jpaltheme#configuration)!
 
 ## Installation
 
@@ -86,6 +86,10 @@ Trying to compile this is a good way to start using the theme, specially if you'
 If you want to see all the nitty gritty details of what `jpaltheme` can do, then I suggest checking `jpaltheme_demo.tex`, located in the `demo` folder. As always, remember to compile using XeLaTeX.
 
 The `jpaltheme_demo.tex` file showcases many typical elements of LaTeX documents and how they are displayed using this theme. There's also mention of some guideline elements, but it is not intended to be a complete guide. Please refer to the official document for a full rundown of all those guidelines.
+
+## Configuration
+
+[I'm working to get this part finished!]
 
 ## Unimportant stuff
 
