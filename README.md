@@ -102,4 +102,4 @@ Please note that this theme was independently developed by me, with very helpful
 
 **This is not an official J-PAL product** and you should always consult the powers that be prior to using it. This software is in beta stage and lots of things may not work as intended (or at all). Please [write an email](mailto:acarril@povertyactionlab.org) if you encounter problems.
 
-This theme is based on the [Metropolis theme](https://www.ctan.org/pkg/beamertheme-metropolis) by Matthias Vogelgesang.
+This theme is based on the [Metropolis theme](https://www.ctan.org/pkg/beamertheme-metropolis) by Matthias Vogelgesang. Make sure to check out his template if you dig this one, but don't have anything to do with J-PAL... [or apply to work with us!](https://www.povertyactionlab.org/careers)
