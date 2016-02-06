@@ -38,7 +38,7 @@ kpsewhich -var-value=TEXMFHOME
 
 That will return a directory address, like `/Users/alvaro/Library/texmf` in my case. It will almost certainly end with `/texmf`.  Go to that folder. If the `texmf` folder doesn't exist, you'll have to create it (it's normal).
 
-**Third** (and final) **step** is to create a subfolder named `latex` and then inside it create another one named `beamer`. Unpack the `jpaltheme` folder you downloaded in the first step (here's [another chance](https://github.com/acarril/jpaltheme/archive/master.zip)) into that `beamer` folder. At the end you should have this structure:
+**Third** (and final) **step** is to create a subfolder named `latex` and then inside it create another one named `beamer`. Unpack the `jpaltheme` folder from the `*.zip` file you downloaded in the first step (here's [another chance](https://github.com/acarril/jpaltheme/archive/master.zip)) into that `beamer` folder. At the end you should have this structure:
 
 ```bash
 .../texmf/latex/beamer/jpaltheme
@@ -52,7 +52,7 @@ There are various ways to try out your brand new installation of `jpaltheme`, bu
 
 ### Basic usage
 
-In order to use this theme, all the files in the `jpaltheme` folder must be placed in the same folder as your main `*.tex` file. The files are:
+If you installed using **Option 1**, then all the files of the `jpaltheme` folder must be placed in the same folder as your main `*.tex` file. The files are:
 
 - `beamercolorthememetropolis.sty`
 - `beamerfontthememetropolis.sty`
@@ -61,7 +61,9 @@ In order to use this theme, all the files in the `jpaltheme` folder must be plac
 - `beamerthemejpal.sty`
 - `swirl.png`
 
-Then `jpaltheme` provides the `jpal` Beamer theme, so your document should start with
+Now if you installed with **Option 2**, there's nothing extra to do! Just open a brand new `*.tex` file.
+
+Without regard of the installation method, `jpaltheme` provides the `jpal` Beamer theme, so your document should start with
 
 ```bash
 \documentclass{beamer}
@@ -89,7 +91,7 @@ The `jpaltheme_demo.tex` file showcases many typical elements of LaTeX documents
 
 ### Author
 
-I'm Alvaro Carril, research analyst at the J-PAL Latin America & The Caribbean office. I like econometrics, TeX, Stata and computer stuff.
+I'm [Alvaro Carril](https://www.povertyactionlab.org/carril), research analyst at the J-PAL Latin America & The Caribbean office. I like econometrics, TeX, Stata and computer stuff.
 
 If you have any suggestions, criticisms, doubts or fears, feel free to email me at [acarril@povertyactionlab.org](mailto:acarril@povertyactionlab.org).
 
