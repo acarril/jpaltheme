@@ -65,7 +65,7 @@ Now if you installed with **Option 2**, there's nothing extra to do! Just open a
 
 Without regard of the installation method, `jpaltheme` provides the `jpal` Beamer theme, so your document should start with
 
-```bash
+```latex
 \documentclass{beamer}
 \usetheme{jpal}
 ...
