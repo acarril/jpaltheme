@@ -19,14 +19,10 @@
 ### Option 1 (easiest)
 Option 1 is the easiest, but it is not the most elegant one. It may be suitable if this is the first time you'll use the template or just want to try it once, to see what the fuzz is all about.
 
-To use, simply [download this repository](https://github.com/acarril/jpaltheme/archive/master.zip) to your computer. There's also a download button if you scroll up this page, shown in this screenshot in case you missed it:
+To use, the first step is simply to [download this repository](https://github.com/acarril/jpaltheme/archive/master.zip) to your computer. There's also a download button if you scroll up this page, shown in this screenshot in case you missed it:
 ![](http://i.imgur.com/nsrqc0V.png)
 
-```bash
-$ brew update
-$ brew tap karan/karan
-$ brew install gitignore
-```
+Second step is to uncompress the contents. That's it. Now you can just run the `*.tex` files contained in the `minimal` or `demo` folders. See the [Usage](https://github.com/acarril/jpaltheme#usage) section for more information.
 
 ### Option 2 (best)
 Option 2 is a tiny bit less easy, but much more elegant. You'll install only once, so no copying and pasting all those `sty` files that mess up your presentations' folders.
@@ -41,21 +37,22 @@ kpsewhich -var-value=TEXMFHOME
 
 That will return a directory address, like `/Users/alvaro/Library/texmf` in my case. It will almost certainly end with `/texmf`.  Go to that folder. If the `texmf` folder doesn't exist, you'll have to create it (it's normal).
 
-Third (and final) step is to create a subfolder named `latex` and then inside that one put another named `beamer`. Unpack  the contents you downloaded in the first step into that `beamer` folder. So at the end you should have this directory:
+Third (and final) step is to create a subfolder named `latex` and then inside that one put another named `beamer`. Unpack the `jpaltheme` folder you downloaded in the first step (here's [another chance](https://github.com/acarril/jpaltheme/archive/master.zip)) into that `beamer` folder. At the end you should have this structure:
 
 ```bash
 .../texmf/latex/beamer/jpaltheme
 ```
 
-If you have any issues with step 2 or 3, I recommend you check [this question](http://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te) in the tex.SE site.
+If you have any issues with steps 2 or 3, I recommend you check [this question](http://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te) in the [tex.SE site](http://tex.stackexchange.com/).
 
 ## Usage
 
-`jpaltheme` corresponds to a Beamer theme, so your document should start with
+`jpaltheme` provides the `jpal` Beamer theme, so your document should start with
 
 ```bash
-\documentclass[10pt]{beamer}
+\documentclass{beamer}
 \usetheme{jpal}
+...
 ```
 
 ### Basic usage
