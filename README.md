@@ -99,7 +99,6 @@ I'm [Alvaro Carril](https://www.povertyactionlab.org/carril), research analyst a
 
 If you have any suggestions, criticisms, doubts or fears, feel free to email me at [acarril@povertyactionlab.org](mailto:acarril@povertyactionlab.org).
 
-
 ### Disclaimer
 
 Please note that this theme was independently developed by me, with very helpful comments and guidance from [Amanda Kohn](https://www.povertyactionlab.org/kohn), Senior Multimedia and Graphic Design Associate at J-PAL. However, I'm solely responsible for this product and all the errors I'm sure it contains.
@@ -107,3 +106,7 @@ Please note that this theme was independently developed by me, with very helpful
 **This is not an official J-PAL product** and you should always consult the powers that be prior to using it. This software is in beta stage and lots of things may not work as intended (or at all). Please [write an email](mailto:acarril@povertyactionlab.org) if you encounter problems.
 
 This theme is based on the [Metropolis theme](https://www.ctan.org/pkg/beamertheme-metropolis) by Matthias Vogelgesang. Make sure to check out his template if you dig this one, but don't have anything to do with J-PAL... [or apply to work with us!](https://www.povertyactionlab.org/careers)
+
+### Known issues/bugs
+- Section slide progress finishes before presentation (width adjust of background incongruent with foreground?)
+- Foot area progress bar has erratic behaviour
